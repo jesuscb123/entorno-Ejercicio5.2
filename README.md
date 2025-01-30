@@ -2,12 +2,18 @@
 
 Clases:  Cliente, Pedido y Producto. Estas clases tienen atributos y métodos que representan su comportamiento y estado.
 Atributos: Cada clase tiene atributos que almacenan información relevante. Por ejemplo, Cliente tiene nombre y email, mientras que Producto tiene precio, impuestos, etc.
+
 Métodos: Se representan en cada clase con el prefijo +, como realizarPedido() en Cliente y calcularCoste() en Pedido.
 Enumeraciones: Se utilizan para definir valores predefinidos en los estados del pedido (EstadoPedido) y los tipos de pago (tipoPago), lo que en código se puede representar con enum.
+
 Relaciones: Se identifican asociaciones entre clases. Por ejemplo:
+
 Cliente y Pedido tienen una relación 1 a * (un cliente puede hacer varios pedidos).
+
 Pedido y Producto tienen una relación de 1 a * (un pedido puede incluir varios productos).
+
 Pedido tiene relación con el método de pago mediante tipoPago.
+
 Clases de datos (Data Classes): cheque y tarjeta representan datos específicos para ciertos métodos de pago.
 
 
