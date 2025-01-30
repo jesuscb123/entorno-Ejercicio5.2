@@ -1,0 +1,3 @@
+enum class EstadoPedido {
+    PEDIENTE_DE_PAGO, PAGADO, PROCESADO, ENVIADO, ENTREGADO
+}
